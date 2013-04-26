@@ -1,13 +1,13 @@
-[0422/135215:INFO:chromedriver_server.cc(76)] Handling request: /status 
-[0422/135215:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"","status":0,"value":{"build":{"version":"alpha"},"os":{"arch":"x86_64","name":"Windows NT","version":"6.1 SP1"}}}
-[0422/135215:INFO:chromedriver_server.cc(76)] Handling request: /session {"desiredCapabilities":{"platform":"ANY","browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","chrome.switches":[]}}
-[0422/135215:INFO:chrome_launcher.cc(74)] Using chrome from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
-[0422/135216:INFO:chromedriver_server.cc(81)] Done handling request: 303 
-[0422/135216:INFO:chromedriver_server.cc(76)] Handling request: /session/92075601abdabe5d0e463c8677854112 
-[0422/135216:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"92075601abdabe5d0e463c8677854112","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","cssSelectorsEnabled":true,"databaseEnabled":true,"driverVersion":"0.8","handlesAlerts":true,"javascriptEnabled":true,"locationContextEnabled":true,"nativeEvents":true,"platform":"Windows NT","rotatable":false,"takesScreenshot":true,"version":"26.0.1410.64","webStorageEnabled":true}}
-[0422/135216:INFO:chromedriver_server.cc(76)] Handling request: /session/92075601abdabe5d0e463c8677854112/url {"url":"http://uuedvalimised.appspot.com/index"}
-[0422/135221:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"92075601abdabe5d0e463c8677854112","status":0,"value":null}
-[0422/135231:INFO:chromedriver_server.cc(76)] Handling request: /session/92075601abdabe5d0e463c8677854112 
-[0422/135231:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"92075601abdabe5d0e463c8677854112","status":0,"value":null}
-[0422/135231:INFO:chromedriver_server.cc(76)] Handling request: /shutdown 
-[0422/135231:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"","status":0,"value":null}
+[0424/235519:INFO:chromedriver_server.cc(76)] Handling request: /status 
+[0424/235519:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"","status":0,"value":{"build":{"version":"alpha"},"os":{"arch":"x86_64","name":"Windows NT","version":"6.1 SP1"}}}
+[0424/235519:INFO:chromedriver_server.cc(76)] Handling request: /session {"desiredCapabilities":{"platform":"ANY","browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","chrome.switches":[]}}
+[0424/235519:INFO:chrome_launcher.cc(74)] Using chrome from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[0424/235521:INFO:chromedriver_server.cc(81)] Done handling request: 303 
+[0424/235521:INFO:chromedriver_server.cc(76)] Handling request: /session/55518aae4536ae468d4c5f50e98c3c5a 
+[0424/235521:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"55518aae4536ae468d4c5f50e98c3c5a","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","cssSelectorsEnabled":true,"databaseEnabled":true,"driverVersion":"0.8","handlesAlerts":true,"javascriptEnabled":true,"locationContextEnabled":true,"nativeEvents":true,"platform":"Windows NT","rotatable":false,"takesScreenshot":true,"version":"26.0.1410.64","webStorageEnabled":true}}
+[0424/235521:INFO:chromedriver_server.cc(76)] Handling request: /session/55518aae4536ae468d4c5f50e98c3c5a/url {"url":"http://uuedvalimised.appspot.com/index"}
+[0424/235527:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"55518aae4536ae468d4c5f50e98c3c5a","status":0,"value":null}
+[0424/235537:INFO:chromedriver_server.cc(76)] Handling request: /session/55518aae4536ae468d4c5f50e98c3c5a 
+[0424/235537:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"55518aae4536ae468d4c5f50e98c3c5a","status":0,"value":null}
+[0424/235537:INFO:chromedriver_server.cc(76)] Handling request: /shutdown 
+[0424/235537:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"","status":0,"value":null}
