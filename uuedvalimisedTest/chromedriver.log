@@ -1,13 +1,85 @@
-[0424/235519:INFO:chromedriver_server.cc(76)] Handling request: /status 
-[0424/235519:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"","status":0,"value":{"build":{"version":"alpha"},"os":{"arch":"x86_64","name":"Windows NT","version":"6.1 SP1"}}}
-[0424/235519:INFO:chromedriver_server.cc(76)] Handling request: /session {"desiredCapabilities":{"platform":"ANY","browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","chrome.switches":[]}}
-[0424/235519:INFO:chrome_launcher.cc(74)] Using chrome from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
-[0424/235521:INFO:chromedriver_server.cc(81)] Done handling request: 303 
-[0424/235521:INFO:chromedriver_server.cc(76)] Handling request: /session/55518aae4536ae468d4c5f50e98c3c5a 
-[0424/235521:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"55518aae4536ae468d4c5f50e98c3c5a","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","cssSelectorsEnabled":true,"databaseEnabled":true,"driverVersion":"0.8","handlesAlerts":true,"javascriptEnabled":true,"locationContextEnabled":true,"nativeEvents":true,"platform":"Windows NT","rotatable":false,"takesScreenshot":true,"version":"26.0.1410.64","webStorageEnabled":true}}
-[0424/235521:INFO:chromedriver_server.cc(76)] Handling request: /session/55518aae4536ae468d4c5f50e98c3c5a/url {"url":"http://uuedvalimised.appspot.com/index"}
-[0424/235527:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"55518aae4536ae468d4c5f50e98c3c5a","status":0,"value":null}
-[0424/235537:INFO:chromedriver_server.cc(76)] Handling request: /session/55518aae4536ae468d4c5f50e98c3c5a 
-[0424/235537:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"55518aae4536ae468d4c5f50e98c3c5a","status":0,"value":null}
-[0424/235537:INFO:chromedriver_server.cc(76)] Handling request: /shutdown 
-[0424/235537:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"","status":0,"value":null}
+[0429/023846:INFO:chromedriver_server.cc(76)] Handling request: /status 
+[0429/023846:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"","status":0,"value":{"build":{"version":"alpha"},"os":{"arch":"x86_64","name":"Windows NT","version":"6.1 SP1"}}}
+[0429/023846:INFO:chromedriver_server.cc(76)] Handling request: /session {"desiredCapabilities":{"platform":"ANY","browserName":"chrome","chromeOptions":{"args":[],"extensions":[]},"version":"","chrome.switches":[]}}
+[0429/023846:INFO:chrome_launcher.cc(74)] Using chrome from C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+[0429/023847:INFO:chromedriver_server.cc(81)] Done handling request: 303 
+[0429/023847:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f 
+[0429/023847:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":{"acceptSslCerts":true,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","cssSelectorsEnabled":true,"databaseEnabled":true,"driverVersion":"0.8","handlesAlerts":true,"javascriptEnabled":true,"locationContextEnabled":true,"nativeEvents":true,"platform":"Windows NT","rotatable":false,"takesScreenshot":true,"version":"26.0.1410.64","webStorageEnabled":true}}
+[0429/023847:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/url {"url":"http://uuedvalimised.appspot.com"}
+[0429/023854:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":null}
+[0429/023857:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/execute {"args":[],"script":"window.alert = function(msg){};"}
+[0429/023857:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":null}
+[0429/023857:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element {"using":"id","value":"fbloginBtn"}
+[0429/023857:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":{"ELEMENT":"0.5050415818113834:1"}}
+[0429/023857:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element/0.5050415818113834:1/click {"id":"0.5050415818113834:1"}
+[0429/023857:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":null}
+[0429/023858:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/window_handle 
+[0429/023858:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":"CDwindow-1"}
+[0429/023858:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/window_handles 
+[0429/023858:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":["CDwindow-1","CDwindow-4"]}
+[0429/023858:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/window {"name":"CDwindow-1"}
+[0429/023858:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":null}
+[0429/023858:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/window {"name":"CDwindow-4"}
+[0429/023858:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":null}
+[0429/023900:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element {"using":"id","value":"email"}
+[0429/023900:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":{"ELEMENT":"0.5153043172322214:1"}}
+[0429/023900:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element/0.5153043172322214:1/value {"id":"0.5153043172322214:1","value":["jna333@hot.ee"]}
+[0429/023900:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":null}
+[0429/023900:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element {"using":"id","value":"pass"}
+[0429/023900:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":{"ELEMENT":"0.5153043172322214:2"}}
+[0429/023900:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element/0.5153043172322214:2/value {"id":"0.5153043172322214:2","value":["123qwerty"]}
+[0429/023900:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":null}
+[0429/023900:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element {"using":"id","value":"u_0_1"}
+[0429/023900:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":{"ELEMENT":"0.5153043172322214:3"}}
+[0429/023900:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element/0.5153043172322214:3/click {"id":"0.5153043172322214:3"}
+[0429/023901:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":null}
+[0429/023903:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/window {"name":"CDwindow-1"}
+[0429/023903:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":null}
+[0429/023904:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element {"using":"id","value":"tab2"}
+[0429/023905:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":{"ELEMENT":"0.5839386815205216:1"}}
+[0429/023905:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element/0.5839386815205216:1/click {"id":"0.5839386815205216:1"}
+[0429/023905:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":null}
+[0429/023905:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/execute {"args":[],"script":"alert = function() {}"}
+[0429/023905:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":null}
+[0429/023906:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element {"using":"id","value":"selection"}
+[0429/023906:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":{"ELEMENT":"0.5839386815205216:2"}}
+[0429/023906:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element/0.5839386815205216:2/elements {"id":"0.5839386815205216:2","using":"tag name","value":"option"}
+[0429/023906:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":[{"ELEMENT":"0.5839386815205216:3"},{"ELEMENT":"0.5839386815205216:4"},{"ELEMENT":"0.5839386815205216:5"},{"ELEMENT":"0.5839386815205216:6"},{"ELEMENT":"0.5839386815205216:7"},{"ELEMENT":"0.5839386815205216:8"},{"ELEMENT":"0.5839386815205216:9"},{"ELEMENT":"0.5839386815205216:10"},{"ELEMENT":"0.5839386815205216:11"},{"ELEMENT":"0.5839386815205216:12"},{"ELEMENT":"0.5839386815205216:13"},{"ELEMENT":"0.5839386815205216:14"}]}
+[0429/023906:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element/0.5839386815205216:3/attribute/value 
+[0429/023906:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":""}
+[0429/023906:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element/0.5839386815205216:4/attribute/value 
+[0429/023906:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":"Images/Valimisringkonnad/Valimisringkond_nr_01.png"}
+[0429/023906:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element/0.5839386815205216:5/attribute/value 
+[0429/023906:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":"Images/Valimisringkonnad/Valimisringkond_nr_02.png"}
+[0429/023906:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element/0.5839386815205216:5/text 
+[0429/023906:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":"Valimisringkond nr 2: Kesklinn, Lasnam\u00E4e, Pirita"}
+[0429/023906:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element/0.5839386815205216:5/click {"id":"0.5839386815205216:5"}
+[0429/023907:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":null}
+[0429/023908:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element {"using":"id","value":"candidateSelect3"}
+[0429/023908:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":{"ELEMENT":"0.5839386815205216:15"}}
+[0429/023908:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element/0.5839386815205216:15/click {"id":"0.5839386815205216:15"}
+[0429/023908:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":null}
+[0429/023908:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element {"using":"id","value":"candidateName3"}
+[0429/023908:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":{"ELEMENT":"0.5839386815205216:16"}}
+[0429/023908:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element/0.5839386815205216:16/text 
+[0429/023908:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":"Karina Noor"}
+[0429/023908:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element {"using":"id","value":"candidateParty3"}
+[0429/023908:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":{"ELEMENT":"0.5839386815205216:17"}}
+[0429/023908:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element/0.5839386815205216:17/text 
+[0429/023908:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":"Eestimaa Kollased"}
+[0429/023908:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element {"using":"id","value":"voteBtn"}
+[0429/023909:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":{"ELEMENT":"0.5839386815205216:18"}}
+[0429/023909:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element/0.5839386815205216:18/click {"id":"0.5839386815205216:18"}
+[0429/023909:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":null}
+[0429/023911:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element {"using":"id","value":"unVoteBtn"}
+[0429/023911:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":{"ELEMENT":"0.5839386815205216:19"}}
+[0429/023911:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element/0.5839386815205216:19/click {"id":"0.5839386815205216:19"}
+[0429/023913:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":null}
+[0429/023913:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element {"using":"id","value":"votedFor"}
+[0429/023913:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":{"ELEMENT":"0.5839386815205216:20"}}
+[0429/023914:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f/element/0.5839386815205216:20/text 
+[0429/023914:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":"Teie, Nimetu Kasutaja, olete juba h\u00E4\u00E4letanud KarinaNoor poolt, kes on erakonnas Eestimaa Kollased piirkonnas Kesklinn, Lasnam\u00E4e, Pirita."}
+[0429/023914:INFO:chromedriver_server.cc(76)] Handling request: /session/0be901511a51fda24b3999c1628efa5f 
+[0429/023914:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"0be901511a51fda24b3999c1628efa5f","status":0,"value":null}
+[0429/023914:INFO:chromedriver_server.cc(76)] Handling request: /shutdown 
+[0429/023914:INFO:chromedriver_server.cc(81)] Done handling request: 200 {"sessionId":"","status":0,"value":null}
